@@ -1,0 +1,38 @@
+ #content {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   margin: 10vh auto auto auto;
+   border: 1px solid #D9276A;
+   border-radius: 5px;
+   padding: 50px 30px;
+   background-color: #F0C3D4;
+ }
+ 
+ #content input {
+   outline-color: #D9276A;
+ }
+ 
+ #content input,
+ label {
+   font-size: 23px;
+   padding: 3px;
+ }
+ 
+ #see {
+   margin-top: 10px;
+ }
+ 
+ #checkHolder label {
+   font-size: 18px;
+ }
+ 
+ button {
+   padding: 8px 5px;
+   margin-top: 20px;
+   border: none;
+   border-radius: 9px;
+   cursor: pointer;
+   width: 30%;
+   font-size: 22px;
+ }
