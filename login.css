@@ -10,7 +10,7 @@
  }
  
  #content input {
-   outline-color: #D9276A;
+   border:0.5px solid #D9276A;
  }
  
  #content input,
@@ -21,6 +21,7 @@
  
  #see {
    margin-top: 10px;
+   cursor: pointer;
  }
  
  #checkHolder label {
@@ -35,4 +36,10 @@
    cursor: pointer;
    width: 30%;
    font-size: 22px;
+   background-color:white;
+   transition: background 4s ;
+ }
+ button:hover{
+    background-color: #f473a5;
+    border: 1px solid #D9276A;
  }
